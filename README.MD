@@ -18,7 +18,7 @@ Hay un método de obtención y un método de publicación.
 
 ### Método de obtención: Lee los datos históricos de los comentarios y calcula su connotación.
 
-tiene dos quiery parammeters, el primero: Start; sirve para definir el inicio de donde se tomara el primer comentario que esta en el archivo "comentarios.txt" y el segundo: Limit, define hasta que comentario se toma.
+Tiene dos quiery parammeters, el primero: Start; sirve para definir el inicio de donde se tomara el primer comentario que esta en el archivo "comentarios.txt" y el segundo: Limit, define hasta que comentario se toma.
 
 El resultado de este metodo es un json con el comentario, seguido de su connotacion: Positiva o negativa.
 

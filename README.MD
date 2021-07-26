@@ -22,7 +22,7 @@ Tiene dos quiery parammeters, el primero: Start; sirve para definir el inicio de
 
 El resultado de este metodo es un json con el comentario, seguido de su connotacion: Positiva o negativa.
 
-En el archivo "comentarios.txt" hay 12 comentarios, por lo que puede generar error un intervalo mas de 12 elementos.
+En el archivo "comentarios.txt" hay 12 comentarios, por lo que puede generar error si usa un intervalo mas de 12 elementos.
 
 Si esta ejecutando localmente la imagen docker, puede modificar el archivo y agregar mas comentarios, tenga en cuenta que tiene que volver a construir la imagen.
 

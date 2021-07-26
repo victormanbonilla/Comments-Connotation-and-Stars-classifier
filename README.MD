@@ -30,7 +30,7 @@ Si esta ejecutando localmente la imagen docker, puede modificar el archivo y agr
 
 En este metodo se inserta manuelmente un comentario en formato string y arroja una respuesta de la connotacion del mismo, ademas de un pronostico de la cantidad de estrellas que recibira el comentario.
 
-Por ejemplo, si coloca: "Perfecta, la aplicacion funciona bien", recibira una connotacion positiva y 5 estrellas.
+Por ejemplo, si coloca: "Perfectamente hecha esta app, me encanta", recibira una connotacion positiva y 5 estrellas.
 
 Si coloca: "Regular, pero puede mejorar", recibira una connotacion positiva y 3 estrellas.
 

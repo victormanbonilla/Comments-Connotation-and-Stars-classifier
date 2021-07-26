@@ -22,6 +22,10 @@ Tiene dos quiery parammeters, el primero: Start; sirve para definir el inicio de
 
 El resultado de este metodo es un json con el comentario, seguido de su connotacion: Positiva o negativa.
 
+En el archivo "comentarios.txt" hay 12 comentarios, por lo que puede generar error un intervalo mas de 12 elementos.
+
+Si esta ejecutando localmente la imagen docker, puede modificar el archivo y agregar mas comentarios, tenga en cuenta que tiene que volver a construir la imagen.
+
 ### Método de publicación: A partir de un comentario dado, calcula la connotación y predice la calificación de estrellas.
 
 En este metodo se inserta manuelmente un comentario en formato string y arroja una respuesta de la connotacion del mismo, ademas de un pronostico de la cantidad de estrellas que recibira el comentario.

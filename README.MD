@@ -3,12 +3,13 @@
 This is the project for the test of EasyData.
 
 ## Procedimiento en localhost
+1.1) Puede obtener la imagen Docker de la app en el siguente enlace: https://drive.google.com/file/d/10mTyu0S4do9CHr97yyTjyy4wVFZTVgxL/view?usp=sharing
 
-Puede empaquetar la app con el docker usando "docker build -t comments-app ."
+1.2) Puede empaquetar la app con el docker usando "docker build -t comments-app ."
 
 Y ejecutarla con "sudo docker run -p 8000:8000 comments-app"
 
-O Puede bajar la imagen desde docker hub "sudo docker pull victormanbonilla/bonilla-comments-app"
+1.3) O Puede bajar la imagen desde docker hub "sudo docker pull victormanbonilla/bonilla-comments-app"
 
 Luego la ejecura con "sudo docker run -p 8000:8000 victormanbonilla/bonilla-comments-app"
 

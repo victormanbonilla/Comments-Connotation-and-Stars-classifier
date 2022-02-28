@@ -39,19 +39,6 @@ Si coloca: "Malisima app, no me gusto para nada", recibira una connotacion negat
 
 Puede intentar con el comentario que quiera, pero se recomienda que sea superior a 4 palabras, debido a que el modelo se entreno con esa longitid de palabras.
 
-## Procedure in localhost
-
-Download image from docker hub "sudo docker pull victormanbonilla/bonilla-comments-app"
-
-Run app with "sudo docker run -p 8000:8000 victormanbonilla/bonilla-comments-app"
-
-open navigator and type localhost:8000/docs.
-
-There is one get method and one post method.
-
-### Get method: Reads the historical data of coments and calculates it's connotation.
-
-### Post method: from a given comment, it calculates the connotation and predict the star qualification.
 
 
 

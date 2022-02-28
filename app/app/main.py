@@ -46,20 +46,19 @@ async def predict_qwery(start: int=0, limit: int=3):
         prediction = model1.predict(comment.reshape(-1, 1))
 
     output = prediction[start:limit]
-    preds = ''
+    preds = []
+
+    
     for i in range(len(output)):
-        preds += '//'
-        preds += comment[i+start, 0]
-
+                
         if output[i] > 0.5:
-            preds += '->Positivo'
+            connt = 'Positivo'
         else:
-            preds += '->Negativo'
-        preds += '//'
-        preds += ','
-    print(preds)
+            connt = 'Negativo'
+        
+        preds.append([comment[i+start, 0], connt])
 
-    return {f'Connotacion de los {limit-start} comentarios': preds}
+    return {'Connotaciones': preds}
 
 
 @app.post('/predict_stars_and_connotation')
